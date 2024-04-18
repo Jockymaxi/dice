@@ -2,5 +2,5 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(randint(0, 6))
+    basic.showNumber(randint(1, 6))
 })
